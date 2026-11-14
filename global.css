@@ -1,0 +1,49 @@
+
+body {
+    font: 100%/1.5 system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 80em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-bottom: 0.2em;
+}
+
+header p {
+    margin-top: 0;
+}
+
+.time-filter {
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+    gap: 0.4em;
+}
+
+#time-slider {
+    width: 100%;
+    cursor: pointer;
+}
+
+#selected-time {
+    font-weight: bold;
+}
+
+#any-time {
+    color: #64748b;
+}
